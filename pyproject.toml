@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "use_case_gen"
+version = "0.1.0"
+description = "use case gen using crewAI"
+authors = ["Suzal Kachhadiya"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = {extras = ["tools"], version = "^0.28.7"}
+langchain = "0.1.17"
+langchain-core = "0.1.52"
+streamlit = "^1.34.0"
+langchain-google-genai = "^1.0.3"
+langchain-groq = "^0.1.3"
+pillow = "^10.3.0"
+
+[tool.poetry.scripts]
+use_case_gen = "use_case_gen.main:run"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

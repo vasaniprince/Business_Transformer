@@ -1,0 +1,6 @@
+streamlit
+poetry
+transformers
+huggingface-hub
+tensorflow
+langchain-community

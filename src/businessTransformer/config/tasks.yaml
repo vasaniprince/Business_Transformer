@@ -1,0 +1,67 @@
+industry_company_research_task:
+  description: >
+    1. Research and analyze the industry that {company} operates in
+    2. Analyze major trends and challenges in the industry
+    3. Research {company}'s key offerings and products or services
+    4. Identify strategic focus areas and initiatives
+    5. Analyze vision, mission, and corporate strategy
+
+  expected_output: >
+    A comprehensive report containing:
+    - Recent company developments and news
+    - Key industry trends and trends affecting the company
+    - complete insights of industry's future outlooks
+    - List of products and services with description
+    - key offerings and focus area of a company
+    formatted as markdown
+  
+  output_file: outputs/market_research/industry_company_research.md
+
+ai_usecase_analysis_task:
+  description: >
+    1. Generate specific use cases for AI/ML/CV/GenAI implementation
+    - Propose GenAI applications for internal processes if applicable
+    - Identify LLM opportunities for customer interaction if applicable
+    - Suggest ML solutions for operational optimization if applicable
+    - Suggest Computer Vision solutions if applicable
+    2. Prioritize use cases based on:
+    - {company}'s vision and operational needs
+    - Expected ROI
+    - Resource requirements
+    - Risk assessment
+    and list out those use cases based on priority
+
+  expected_output: >
+    A detailed AI/ML/GenAI strategy report containing:
+    - use case title
+       * Objective/Use Case: description
+       * AI Application: description
+       * Cross-Functional Benefits: description
+    Formatted as markdown with clear sections and subsections
+
+  output_file: outputs/use_cases/ai_usecase_analysis.md
+
+resource_collection_task:
+  description: >
+    For AI use case which is in the top one in priority list given in use case report:
+    1. Identify required data types and characteristics
+    2. Search for relevant datasets on and give links of those:
+    - 'Kaggle' : links
+    - 'HuggingFace' : links
+    - 'GitHub' : links
+    3. Evaluate dataset quality and relevance based on:
+    - Data completeness
+    - Licensing terms
+
+  expected_output: >
+    A report containing:
+    - datasets' links
+     * Kaggle :
+      - (links)
+     * HuggingFace :
+      - (links)
+     * GitHub :
+      - (links)
+    Formatted as markdown with clear sections and subsections
+
+  output_file: outputs/resources/resource_collection.md
