@@ -52,7 +52,7 @@ Follow these steps to get started with the project:
 2. **Navigate to the project directory:**
    ```bash
 
-      cd <extracted-directory>
+   cd <extracted-directory>
       
    ``` 
    
@@ -61,7 +61,7 @@ Follow these steps to get started with the project:
    Create a new virtual environment using Python 3.10 or greater versions:
 
    ```bash
-   python -m venv <Your your_env_name
+   python -m venv your_env_name
    ```
    Replace your_env_name with the desired name for your virtual environment.
    
